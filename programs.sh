@@ -8,5 +8,6 @@ python3.sh
 vsc.sh
 qbittorrent.sh
 zoom.sh
+yandex-browser.sh
 
 cd ..
