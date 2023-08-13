@@ -9,5 +9,6 @@ vsc.sh
 qbittorrent.sh
 zoom.sh
 yandex-browser.sh
+wine.sh
 
 cd ..
