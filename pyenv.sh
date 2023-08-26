@@ -20,5 +20,4 @@ pyenv install 3.11.4
 
 pyenv global 3.11
 
-# virtual environment plugin in pyenv
-https://github.com/pyenv/pyenv-virtualenv
+# virtual environment plugin in pyenv https://github.com/pyenv/pyenv-virtualenv
