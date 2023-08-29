@@ -15,3 +15,13 @@ else
     exit 0
 
 fi
+
+if ! [[ -d ~/github ]]; then
+mkdir ~/github
+fi
+
+cd ~/github;
+read -p "GitHub login: " github_login;
+read -p "GitHub repo name: " github_repo;
+echo "Cloning git@github.com:$github_login/$github_repo.git";
+git clone "git@github.com:$github_login/$github_repo.git";
