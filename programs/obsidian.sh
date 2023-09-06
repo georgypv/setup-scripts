@@ -23,5 +23,9 @@ fi
 cd ~/github;
 read -p "GitHub login: " github_login;
 read -p "GitHub repo name: " github_repo;
+if ! [[ -d ~/github/$github_repo ]]; then
 echo "Cloning git@github.com:$github_login/$github_repo.git";
 git clone "git@github.com:$github_login/$github_repo.git";
+else
+echo "directory: ~/github/$github_repo already exists!"
+fi
