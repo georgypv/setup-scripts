@@ -4,6 +4,7 @@
 ./programs.sh
 ./update-alternatives.sh
 ./pyenv.sh
+./poetry.sh
 
 sudo apt upgrade -y
 source ~/.bashrc
