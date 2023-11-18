@@ -4,6 +4,7 @@
 ./programs.sh
 ./update-alternatives.sh
 ./pyenv.sh
+./poetry.sh
 ./get-test-data.sh
 
 sudo apt upgrade -y
