@@ -26,6 +26,10 @@ install openjdk-11-jdk #java 11
 install fd-find #https://github.com/sharkdp/fd#installation
 ln -s $(which fdfind) ~/.local/bin/fd
 
+# https://stackoverflow.com/a/60374453
+install libffi-dev
+
+
 #Communication
 install telegram-desktop
 
@@ -33,8 +37,7 @@ install telegram-desktop
 install chromium-browser
 install vlc
 
-#snap install
-sudo snap install todoist
+
 
 
 
